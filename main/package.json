@@ -1,0 +1,21 @@
+{
+  "name": "ultimate-ctf",
+  "version": "6.0.0",
+  "description": "Ultimate CTF Password Analyzer with MySQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "mysql2": "^3.9.7",
+    "ws": "^8.17.0"
+  }
+}
